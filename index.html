@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EcoTrack - Monitoramento Sustentável</title>
+  <style>
+    /* Reset básico */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      background-color: #f4f9f4;
+      color: #333;
+    }
+
+    header, main, footer {
+      max-width: 900px;
+      margin: auto;
+      padding: 1rem;
+    }
+
+    header {
+      background-color: #2e7d32;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 0.5rem 0;
+      font-size: 2.2rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin: 0;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      color: #a5d6a7;
+      text-decoration: none;
+      margin: 0 0.5rem;
+      font-weight: bold;
+    }
+
+    nav a:focus, nav a:hover {
+      text-decoration: underline;
+      outline: 2px solid #a5d6a7;
+      outline-offset: 2px;
+    }
+
+    main h2 {
+      color: #2e7d32;
+      margin-top: 2rem;
+      font-size: 1.8rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    ul {
+      list-style: inside disc;
+      padding-left: 0;
+    }
+
+    footer {
+      background-color: #e0e0e0;
+      font-size: 0.9rem;
+      color: #555;
+      text-align: center;
+      padding: 1rem;
+      border-top: 1px solid #ccc;
+      margin-top: 3rem;
+    }
+
+    /* Links no footer */
+    footer a {
+      color: #2e7d32;
+      text-decoration: none;
+    }
+
+    footer a:hover, footer a:focus {
+      text-decoration: underline;
+      outline: 2px solid #2e7d32;
+      outline-offset: 2px;
+    }
+
+    /* Responsividade */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.6rem;
+      }
+      main h2 {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header role="banner">
+    <h1>EcoTrack</h1>
+    <p>Aplicativo para monitoramento de sustentabilidade pessoal</p>
+    <nav aria-label="Menu principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#funcionalidades">Funcionalidades</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main role="main">
+    <section id="sobre" tabindex="-1">
+      <h2>Sobre o EcoTrack</h2>
+      <p>O EcoTrack é um aplicativo inovador criado para ajudar usuários a monitorar e melhorar sua pegada ambiental, incentivando hábitos sustentáveis no dia a dia.</p>
+      <p>Nosso objetivo é tornar a sustentabilidade acessível para todos, oferecendo ferramentas simples e práticas para acompanhar seu impacto ambiental.</p>
+    </section>
+
+    <section id="funcionalidades" tabindex="-1">
+      <h2>Funcionalidades principais</h2>
+      <ul>
+        <li>Registro diário do consumo de água, energia e transporte.</li>
+        <li>Gráficos intuitivos para acompanhar sua evolução ao longo do tempo.</li>
+        <li>Dicas personalizadas para reduzir o impacto ambiental.</li>
+        <li>Comunidade para troca de experiências e desafios sustentáveis.</li>
+      </ul>
+    </section>
+
+    <section id="contato" tabindex="-1">
+      <h2>Contato</h2>
+      <p>Quer saber mais ou colaborar com o EcoTrack? Entre em contato conosco!</p>
+      <address>
+        Email: <a href="mailto:contato@ecotrack.com" aria-label="Enviar email para contato@ecotrack.com">contato@ecotrack.com</a><br />
+        Twitter: <a href="https://twitter.com/ecotrack" target="_blank" rel="noopener noreferrer" aria-label="Abrir Twitter do EcoTrack em nova aba">@EcoTrack</a>
+      </address>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>Este projeto é apenas ilustrativo. Estas páginas foram desenvolvidas como atividade da Disciplina Programação para Web I.</p>
+  </footer>
+</body>
+</html>
